@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --primary-text: 'Roboto';
+  --nav-color: #c4c4cc;
+  --text-color: #e1e1e6;
+}
+body {
+  font-family: var(--primary-text);
+  font-size: 1.6rem;
+}
+
+nav {
+  height: 12.2rem;
+}
+nav a {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+
+  text-decoration: none;
+  color: #c4c4cc;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.pages img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navegation {
+  display: flex;
+  width: 48.9rem;
+  height: 4.2rem;
+
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+
+  color: #c4c4cc;
+  margin: 4rem 71.9rem 4rem 7.2rem;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3.2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+
+  margin-top: 8.2rem;
+}
+
+.home h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+
+  color: #e1e1e6;
+}
+
+.container a {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  width: 19.5rem;
+  height: 4.8rem;
+  padding: 1.2rem 0 0 2.7rem;
+
+  border: 2px solid #ffffff;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.container a:hover {
+  background-color: black;
+  transform: scale(1.2);
+  transition: 500ms;
+}
+section {
+  padding: 6.2rem 0 0 10.2rem;
+  width: 64.8rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  margin-bottom: 1.6rem;
+
+  color: #e1e1e6;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+
+  color: #e1e1e6;
+}
+
+.select {
+  font-weight: bold;
+  color: #ffffff;
+}
